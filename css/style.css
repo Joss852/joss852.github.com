@@ -1,0 +1,209 @@
+:root{
+    --br: 4px;
+    --pcolor: #900c3f;
+    --scolor: #581845;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+#banner {
+    height: 400px;
+    width: 100%;
+    padding: 100px;
+    background-color: var(--pcolor);
+}
+
+.profile-box {
+    display: flex;
+    margin: 0px auto;
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    width: 800px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.profile-photo {
+    width: 180px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.name {
+    color: black;
+    width: 100%;
+    font-size: 60px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: var(--br);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 0px auto 60px auto;
+    height: auto;
+}
+
+.about-me {
+    height: 120px;
+    width: 400px;
+    margin: 60px auto;
+}
+
+.skills {
+    margin-top: 150px;
+    width: 800px;
+}
+
+.title-text {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.item {
+    padding: 10px;
+    margin: var(--br);
+    border: 1px solid rgb(172, 172, 172);
+    width: auto;
+    border-radius: var(--br);
+}
+
+.skills .container {
+    grid-template-columns: auto auto;
+    justify-content: inherit;
+}
+
+.skills .container .item {
+    display: flex;
+}
+
+.skills .container .item img {
+    width: 50px;
+    height: 50px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    width: 100%;
+    height: 20px;
+    margin: 10px;
+    align-self: center;
+    border-radius: 100px;
+}
+
+.progress-bar .fill {
+    height: 20px;
+}
+
+.progress-bar .fill.fill-30 {
+    border-radius: 100px;
+    background-color: var(--pcolor);
+    width: 30%;
+}
+
+.progress-bar .fill.fill-50 {
+    border-radius: 100px;
+    background-color: var(--pcolor);
+    width: 50%;
+}
+
+.progress-bar .fill.fill-60 {
+    border-radius: 100px;
+    background-color: var(--pcolor);
+    width: 60%;
+}
+
+.progress-bar .fill.fill-65 {
+    border-radius: 100px;
+    background-color: var(--pcolor);
+    width: 65%;
+}
+
+.progress-bar .fill.fill-70 {
+    border-radius: 100px;
+    background-color: var(--pcolor);
+    width: 70%;
+}
+
+.work {
+    width: 800px;
+}
+
+.work .container {
+    grid-template-columns: auto auto auto;
+}
+
+.pcard {
+    display: block;
+    position: static;
+    width: 220px;
+    height: auto;
+}
+
+.pcard .body {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    justify-content: center;
+    border-top: 1px solid black;
+    background-color: rgba(204, 201, 201, 0.281);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.button {
+    display: block;
+    margin: var(--br);
+    height: 34px;
+    width: auto;
+    background-color: var(--pcolor);
+    border: 1px solid #750b34;
+    border-radius: var(--br);
+    padding: 4px;
+    color: white;
+    text-align: center;
+}
+
+.button:hover {
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+.contact {
+    width: 300px;
+}
+
+.page-footer {
+    background-color: var(--scolor);
+    height: 50px;
+    display: grid;
+}
+
+.page-footer .footer-text {
+    color: white;
+    text-align: center;
+    align-self: center;
+}
